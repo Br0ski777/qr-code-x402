@@ -30,6 +30,45 @@ Do NOT use for barcodes (EAN-13, UPC-A, Code128) -- use utility_generate_barcode
         },
         required: ["data"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "qr_base64": {
+              "type": "string",
+              "description": "Base64-encoded QR code image"
+            },
+            "data_uri": {
+              "type": "string",
+              "description": "Data URI for inline display"
+            },
+            "width": {
+              "type": "number",
+              "description": "Image width in pixels"
+            },
+            "height": {
+              "type": "number",
+              "description": "Image height in pixels"
+            },
+            "modules": {
+              "type": "number",
+              "description": "QR code module count"
+            },
+            "inputData": {
+              "type": "string",
+              "description": "Input data encoded"
+            },
+            "inputLength": {
+              "type": "number",
+              "description": "Input data length"
+            }
+          },
+          "required": [
+            "qr_base64",
+            "data_uri",
+            "width",
+            "height"
+          ]
+        },
     },
   ],
 };
