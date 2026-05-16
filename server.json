@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://qr-code-x402-production.up.railway.app/mcp"
+      "url": "https://qr-code.api.klymax402.com/mcp"
     }
   ]
 }
