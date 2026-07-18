@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/qr",
-      price: "$0.001",
+      price: "$0.003",
       description: "Generate a QR code image from text or URL",
       mimeType: "application/json",
       toolName: "utility_generate_qr_code",
