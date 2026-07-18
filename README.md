@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `utility_generate_qr_code` | POST | `/api/qr` | $0.001 | Generate a QR code image from text or URL |
+| `utility_generate_qr_code` | POST | `/api/qr` | $0.003 | Generate a QR code image from text or URL |
 
 ### `utility_generate_qr_code`
 
